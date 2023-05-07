@@ -7,6 +7,7 @@
 }
 
 .gallery img {
+  flex-basis: calc(33.33% - 10px);
   max-width: 100%;
   height: auto;
   margin: 5px;
