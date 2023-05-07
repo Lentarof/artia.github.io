@@ -3,6 +3,10 @@ layout: default
 title: Galería
 ---
 
+<head>
+  <link rel="stylesheet" href="{{ '/styles.css' | relative_url }}">
+</head>
+
 <h1>Galería</h1>
 
 <div class="gallery">
