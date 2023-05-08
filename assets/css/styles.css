@@ -11,6 +11,8 @@
   max-width: 100%;
   height: auto;
   margin: 5px;
+  max-height: 500px;
+  object-fit: contain;
 }
 
 /* Estilos para hacer la página responsive */
