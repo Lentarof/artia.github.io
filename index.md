@@ -12,7 +12,7 @@ title: Galería
 <div class="gallery">
   {% for image in site.static_files %}
     {% if image.path contains 'galeria/' %}
-      <img src="{{ site.baseurl }}/{{ image.path }}" alt="{{ image.name }}">
+      <img src="{{ site.baseurl }}/{{ image.path }}" alt="{{ image.name }}" class="fixed-width">
     {% endif %}
   {% endfor %}
 </div>

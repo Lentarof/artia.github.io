@@ -26,8 +26,11 @@
 }
 /* Estilos para hacer las imágenes subidas responsive */
 .uploaded-image {
-  /*max-width: 100%;*/
-  max-width: 500px;
+  width: 500px;
   height: auto;
   margin-top: 20px;
+}
+.fixed-width {
+  width: 500px;
+  height: auto;
 }
